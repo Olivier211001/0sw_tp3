@@ -10,7 +10,6 @@ public class player : KinematicBody2D
 	const int JUMPFORCE = 300;
 
 	const int ACCEL = 10;
-	//Vector2 vZero = new Vector2();
 
 	bool facing_right = true;
 
