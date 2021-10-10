@@ -13,7 +13,6 @@ public class player : KinematicBody2D
 
 	bool facing_right = true;
 
-
 	Vector2 motion = new Vector2();
 
 	Sprite currentSprite;
@@ -26,6 +25,7 @@ public class player : KinematicBody2D
 		animPlayer = GetNode<AnimationPlayer>("AnimationPlayer");
 		aT = GetNode<AnimationTree>("AnimationTree");
 	}
+	
 	public Vector2 GetInput()
 	{
 	    var input_vector = Vector2.Zero;
